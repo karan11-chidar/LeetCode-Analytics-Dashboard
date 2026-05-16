@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.documentElement.style.setProperty('--hard-percent', `${calculatePercentage(hardQuestions, totalQuestions)}%`);
 
         // update ranking and accuracy
-        ranking.textContent = `#${userData.ranking}`;
+        // ranking.textContent = `#${userData.ranking}`;
         accurracy.textContent = `${calculatePercentage(acceptedSubmissions, totalSubmission)}%`;
 
     
